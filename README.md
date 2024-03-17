@@ -22,19 +22,19 @@ langkah langkah nya :
 
 4. konfigurasi pada router 1
 
-   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/c0cabef5-403b-4c9c-be4b-26ec734283e0" width="70%" height="70%"> 
+   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/9a648573-ff3f-4caa-b471-cb052f27970d" width="70%" height="70%"> 
+
+   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/e3c238f0-f7d9-439c-99af-118ec781a5d7" width="70%" height="70%"> 
    
-   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/2522e03f-c34f-4867-b1e6-aa98f6f26f69" width="70%" height="70%"> 
-   
-   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/7159d0ec-2666-4c05-a42f-5a97c7c242c1" width="70%" height="70%">  
-   
+   <img src="(https://github.com/habibh028/tugas-modul-switching/assets/126387192/18cbc3d0-3247-460e-836a-1ebee28ea242" width="70%" height="70%">  
+
 5. konfigurasi pada router 2
 
-   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/31ca6017-c8c9-4a9d-89dc-ec0590f80341" width="70%" height="70%"> 
-   
+   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/0840f725-6da8-4433-bbe1-b306014cdfe6" width="70%" height="70%"> 
+ 
 6. Memberi IP pada Server
 
-   ![pc](https://github.com/habibh028/tugas-modul-switching/assets/126387192/d7ad83fe-2403-4881-a021-243edafbcb08)
+   <img src="https://github.com/habibh028/tugas-modul-switching/assets/126387192/cda7039b-7cc8-45a4-8bbe-cdec69b07cf0" width="70%" height="70%"> 
 
 7. Uji coba ping pada pc apakah sudah berhasil
 
@@ -42,6 +42,17 @@ langkah langkah nya :
 
 -----------------------------------------
 
-Mencoba 
+Mencoba `show ip dhcp pool`, `show ip nat statistics`, dan `show ip nat translation`
+
+![percobaan](https://github.com/habibh028/tugas-modul-switching/assets/126387192/5b40b0d6-c920-4398-bc41-f7a68d5465ca)
+
+
+`show ip dhcp pool`, `show ip nat statistics`, dan `show ip nat translation` adalah perintah yang digunakan pada router untuk menampilkan informasi terkait konfigurasi DHCP (Dynamic Host Configuration Protocol), statistik NAT (Network Address Translation), dan terjemahan NAT yang sedang berlangsung. 
+
+- `show ip dhcp pool`: Perintah ini digunakan untuk menampilkan informasi terkait konfigurasi pool DHCP yang telah dibuat pada router.
+- `show ip nat statistics`: Perintah ini digunakan untuk menampilkan statistik terkait proses NAT yang berjalan pada router, seperti jumlah alamat IP yang telah diterjemahkan.
+- `show ip nat translation`: Perintah ini digunakan untuk menampilkan daftar terjemahan alamat IP yang sedang berlangsung pada router.
+
+Dengan menggunakan perintah-perintah ini, Anda dapat memantau dan menganalisis konfigurasi serta aktivitas DHCP dan NAT pada router.
 
 
